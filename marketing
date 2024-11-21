@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ha, Got You!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #333333;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #666666;
+            margin: 20px 0;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: #ffffff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Ha, Got You!</h1>
+        <p>But seriously, while you're here, why not book a call with me? Let me show you how I can help you land 2-4 SQL meetings per week.</p>
+        <a href="https://meetings-eu1.hubspot.com/dmostert" class="button">Book a Call</a>
+    </div>
+</body>
+</html>
